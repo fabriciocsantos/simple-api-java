@@ -5,6 +5,7 @@ on:
         branches: 'feature/**'
     pull_request:
         types: [opened, reopened]
+        branches: 'feature/**'
 jobs:
     echo:
         runs-on: ubuntu-latest
