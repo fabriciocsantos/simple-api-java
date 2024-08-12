@@ -13,7 +13,7 @@ jobs:
         steps:
         - name: Step 1 - Sequencia de instruções
           run: |
-            echo "Instrução antes da falha"
+            echo "Uma nova instrução"
             ls            
         - name: Step 2 - Imprimir mensagem
           run: echo "Até logo!"
